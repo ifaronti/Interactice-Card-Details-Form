@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ifa's Card Details Form Solution</title>
+    </head>
+    <body>
+        <div class="content">
+            <img class="gradient-bg" src="/codes/images/bg-main-desktop.png" alt="">
+            <div class="int-content">
+                <div class="credit-card">
+                    <div class="front-card-details">
+                        <div class="details-wrap">
+                            <div class="number-name-expiry">
+                                <p class="cardNumber">0000 0000 0000 0000</p>
+                                <div class="name-expiry">
+                                    <p class="card-name"></p>
+                                    <p class="card-expiry">00/00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-back-details">
+                        <p class="cvc-number">000</p>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <div class="name-div">
+                        <label for="name">
+                            CARDHOLDER NAME
+                            <input type="text" id="name" class="name-input" name="name">
+                        </label>
+                        <span class="name-error">Error Message</span>
+                    </div>
+
+                    <div class="number-div">
+                        <label for="number">
+                            CARD NUMBER
+                            <input type="text" id="number" name="card-number">
+                        </label>
+                        <span>Error Message</span>
+                    </div>
+
+                    <div class="expiry-cvc">
+                       <div class="expiry">
+                        <label class="month-year" for="month-year">EXP. DATE(MM/YY)</label>
+                        <div class="expiry-inputs">
+                            <input type="text" id="month month-year" name="month">
+                            <input type="text" id="year month-year" name="year">
+                        </div>
+                        <span>Error Message</span>
+                        <span>Error Message</span>
+                       </div>
+
+                        <label for="cvc">
+                            CVC
+                            <input type="text" id="cvc" name="cvc">
+                            <span>Error Message</span>
+                        </label>
+                    </div>
+                    <button class="form-btn">Confirm</button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <script src="index.js"></script>
+</html>

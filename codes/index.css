@@ -2,3 +2,181 @@
     font-family: 'Space Grotesk';
     src: url(/codes/fonts/SpaceGrotesk-Regular.ttf);
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.content{
+    position: relative;
+    width: 1440px;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.gradient-bg{
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+/*********************************** cards section  *************************************/
+.int-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 7rem;
+}
+
+.credit-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    position: relative;
+}
+
+.front-card-details{
+    position: relative;
+    width: 447px;
+    height: 245px;
+    background-image: url(/codes/images/bg-card-front.png);
+    left: -1.9rem;
+}
+
+.details-wrap{
+    margin-left: 33px;
+}
+
+.number-name-expiry{
+    font-family: 'Space Grotesk';
+    color: white;
+    position: relative;
+    top: 6.99rem;
+}
+
+.cardNumber{
+    font-size: 27px;
+    letter-spacing: 4px;
+}
+
+.name-expiry{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 33px;
+    font-family:'Space Grotesk';
+    position: relative;
+    top: -13px;
+}
+
+.card-name{
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.card-expiry{
+    font-family:'Space Grotesk';
+    font-size: 13.8px;
+    letter-spacing: 2.3px;
+}
+
+.card-back-details{
+    width: 447px;
+    height: 245px;
+    background-image: url(/codes/images/bg-card-back.png);
+    font-weight: 500;
+    color: white;
+    position: relative;
+    left: 2rem;
+}
+
+.cvc-number{
+    font-family:'Space Grotesk';
+    font-size: 13.8px;
+    letter-spacing: 2.3px;
+    float: right;
+    position: relative;
+    top: 6.1rem;
+    margin-right: 3.5rem;
+}
+
+/************************************* form-info section  ****************************/
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    position: relative;
+    left: 5rem;
+    top: -8px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    color: hsl(278, 68%, 11%);
+    font-family:'Space Grotesk';
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#name, #card-number{
+    width: 373px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid hsl(270, 3%, 87%);
+    text-indent: 1rem;
+    font-family:'Space Grotesk';
+    color: rgb(158, 158, 158);
+}
+
+.expiry-cvc{
+    display: flex;
+}
+
+.expiry-inputs{
+    display: flex;
+    gap: 11px;
+}
+
+#month-year{
+    height: 40px;
+    width: 72px;
+    border-radius: 8px;
+    border: 1px solid hsl(270, 3%, 87%);
+    text-align: center;
+    font-family:'Space Grotesk';
+    color: rgb(158, 158, 158);
+}
+
+#cvc{
+    height: 40px;
+    /* width: 184px; */
+    border-radius: 8px;
+    border: 1px solid hsl(270, 3%, 87%);
+    text-indent: 1rem;
+    font-family:'Space Grotesk';
+    color: rgb(158, 158, 158);
+
+}
+
+.form-btn{
+    height: 53px;
+    width: 380px;
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    font-family:'Space Grotesk';
+    font-size: 18px;
+    position: relative;
+    top: 11px;
+}
