@@ -27,7 +27,7 @@ body{
     left: 0;
     height: 100%;
     width: 443px;
-    background: url('../codes/images/bg-main-desktop.png');
+    background: url('bg-main-desktop.png');
 }
 
 @media only screen and (max-width: 1050px){
@@ -67,7 +67,7 @@ body{
     position: relative;
     width: 447px;
     height: 245px;
-    background: url('../codes/images/bg-card-front.png');
+    background: url('./bg-card-front.png');
     left: -5rem;
 }
 
@@ -119,7 +119,7 @@ body{
 .card-back-details{
     width: 447px;
     height: 245px;
-    background: url('../codes/images/bg-card-back.png');
+    background: url('./bg-card-back.png');
     font-weight: 500;
     color: white;
     position: relative;
