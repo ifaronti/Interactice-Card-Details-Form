@@ -13,11 +13,15 @@
                 <div class="credit-card">
                     <div class="front-card-details">
                         <div class="details-wrap">
+                            <img class="card-logo" src="/codes/images/card-logo.svg" alt="">
                             <div class="number-name-expiry">
                                 <p class="cardNumber">0000 0000 0000 0000</p>
                                 <div class="name-expiry">
                                     <p class="card-name"></p>
-                                    <p class="card-expiry">00/00</p>
+                                    <div class="month-year">
+                                        <p class="card-expiry month">00/</p>
+                                        <p class="card-expiry year">00</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -33,36 +37,44 @@
                             CARDHOLDER NAME
                             <input type="text" id="name" class="name-input" name="name">
                         </label>
-                        <span class="name-error">Error Message</span>
+                        <span id="name-error">Error Message</span>
                     </div>
 
                     <div class="number-div">
                         <label for="number">
                             CARD NUMBER
-                            <input type="text" id="number" name="card-number">
+                            <input type="text" id="card-number" name="card-number">
                         </label>
-                        <span>Error Message</span>
+                        <span id="number-error">Error Message</span>
                     </div>
 
                     <div class="expiry-cvc">
                        <div class="expiry">
                         <label class="month-year" for="month-year">EXP. DATE(MM/YY)</label>
                         <div class="expiry-inputs">
-                            <input type="text" id="month month-year" name="month">
-                            <input type="text" id="year month-year" name="year">
+                            <input type="text" id="month" name="month">
+                            <input type="text" id="year" name="year">
                         </div>
-                        <span>Error Message</span>
-                        <span>Error Message</span>
+                        <span id="date-error">Error Message</span>
+                        <span style="visibility: hidden;">Error Message</span>
                        </div>
 
-                        <label for="cvc">
-                            CVC
-                            <input type="text" id="cvc" name="cvc">
-                            <span>Error Message</span>
-                        </label>
+                       <div class="cvc-div">
+                            <label for="cvc">
+                                CVC
+                                <input type="text" id="cvc" name="cvc">
+                            </label>
+                            <span id="cvc-error">Error Message</span>
+                       </div>
                     </div>
                     <button class="form-btn">Confirm</button>
                 </div>
+            </div>
+            <div class="confirmation">
+                <img src="/codes/images/icon-complete.svg" alt="">
+                <h1>THANK YOU!</h1>
+                <p class="confirmationP">We've added your card details</p>
+                <button class="form-btn confirmation-btn">Continue</button>
             </div>
         </div>
         
