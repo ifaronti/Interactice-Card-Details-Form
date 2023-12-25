@@ -27,7 +27,7 @@ body{
     left: 0;
     height: 100%;
     width: 443px;
-    background: url(/codes/images/bg-main-desktop.png);
+    background: url(../codes/images/bg-main-desktop.png);
 }
 
 @media only screen and (max-width: 1050px){
@@ -161,7 +161,6 @@ body{
         position: relative;
         width: 285px;
         height: 170px;
-        background-image: url(/codes/images/bg-card-front.png);
         left: -2rem;
         top: -8.1rem;
         border-radius: 8px;
@@ -225,7 +224,6 @@ body{
         position: relative;
         width: 285px;
         height: 170px;
-        background-image: url(/codes/images/bg-card-back.png) ;
         background-repeat: no-repeat;
         background-size: 100%;
         font-weight: 500;
