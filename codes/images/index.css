@@ -185,6 +185,7 @@ body{
     .cardNumber{
         font-size: 17px;
         letter-spacing: 4px;
+        color: white;
     }
     
     .name-expiry{
@@ -205,6 +206,7 @@ body{
         letter-spacing: 2px;
         font-size: 12px;
         text-transform: uppercase;
+        color: white;
     }
     
     .month-year{
