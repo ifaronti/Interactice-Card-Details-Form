@@ -27,6 +27,7 @@ body{
     left: 0;
     height: 100%;
     width: 443px;
+    background: url(/codes/images/bg-main-desktop.png);
 }
 
 @media only screen and (max-width: 1050px){
