@@ -341,9 +341,13 @@ input:hover{
     cursor: pointer;
 }
 
-#name:focus, #name:active, #card-number:focus, #card-number:active, #month:focus, #month:active, #year:focus, #year:active, #cvc:focus, #cvc:active{
+#name:focus, 
+#card-number:focus, 
+#month:focus, #year:focus, 
+#cvc:focus{
     outline:none;
-    border: 1px solid #5f1ec8;
+    border: 1px solid;
+    border-color: #5418ca;
     cursor: pointer;
 }
 
