@@ -66,7 +66,7 @@ theBtn.addEventListener('click', function(event){
         number = true
         cardNumber.style.borderColor = 'hsl(270, 3%, 87%)'
     }
-    if((monthInput.value.length > 2) || (monthInput.value.length < 2) || (monthInput.value > 12)){
+    if((monthInput.value.length > 2) || (monthInput.value.length < 2) || (monthInput.value > 12) || (!isFinite(monthInput.value))){
         dateError.style.visibility = 'visible'
         dateError.innerHTML = 'two digits only'
         monthInput.style.borderColor = 'red'
@@ -82,7 +82,7 @@ theBtn.addEventListener('click', function(event){
              monthInput.style.borderColor = 'hsl(270, 3%, 87%)'
         }
     }
-    if((yearInput.value.length > 2) || (yearInput.value.length < 2)){
+    if((yearInput.value.length > 2) || (yearInput.value.length < 2) || (!isFinite(yearInput.value))){
         dateError.style.visibility = 'visible'
         dateError.innerHTML = 'Must be two digits'
         yearInput.style.borderColor = 'red'
