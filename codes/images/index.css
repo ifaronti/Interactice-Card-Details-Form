@@ -35,7 +35,6 @@ body{
     .content{
         width: 100vw;
         max-width: 100%;
-        min-height: 800px;
         flex-direction: column;
     }
 
@@ -162,7 +161,7 @@ body{
         position: relative;
         width: 285px;
         height: 170px;
-        left: -2rem;
+        left: -8.2%;
         top: -8.1rem;
         border-radius: 8px;
         z-index: 50;
@@ -232,7 +231,7 @@ body{
         font-weight: 500;
         color: white;
         border-radius: 8px;
-        left: 1.9rem;
+        left: 8.2%;
         top: -3rem;
     }
     
@@ -414,7 +413,6 @@ h1{
 @media only screen and (max-width: 1100px){
     .confirmation{
         left: 0;
-        top: -18rem;
     }
     
     h1{
@@ -424,9 +422,9 @@ h1{
     .confirmationP{
         font-size: 16px;
     }
-    
+
     .confirmation-btn{
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 }
 
