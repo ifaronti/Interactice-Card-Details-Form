@@ -95,8 +95,8 @@ body{
     height: 245px;
     background: url('./bg-card-front.png');
     left: -5rem;
-    /* -moz-animation: 1s ease-out 0s 1 slideInFromLeft;
-    -webkit-animation: 1s ease-out 0s 1 slideInFromLeft; */
+    -moz-animation: 1s ease-out 0s 1 slideInFromLeft;
+    -webkit-animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .details-wrap{
@@ -151,8 +151,8 @@ body{
     font-weight: 500;
     color: white;
     position: relative;
-    /* -moz-animation: 1s ease-out 0s 1 slideInFromLeft;
-    -webkit-animation: 1s ease-out 0s 1 slideInFromLeft; */
+    -moz-animation: 1s ease-out 0s 1 slideInFromLeft;
+    -webkit-animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .cvc-number{
@@ -387,7 +387,7 @@ input[type='text']{
 @media only screen and (max-width: 1050px){
     .form{
         left: 0;
-        top: 7rem;
+        top: 9rem;
     }
 
     #name, #card-number{
