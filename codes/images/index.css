@@ -284,6 +284,7 @@ body{
     position: relative;
     top: -8px;
     left: 4rem;
+    z-index: 123;
 }
 
 label{
