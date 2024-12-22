@@ -8,9 +8,6 @@ This is a solution to the [Interactive card details form challenge on Frontend M
   - [The challenge](#the-challenge)
   - [Links](#links)
   - [Built with](#built-with)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -35,10 +32,3 @@ Users should be able to:
 - HTML5 markup
 - Flexbox
 - vanilla javascript
-
-## Author
-- Frontend Mentor - [@ifaronti](https://www.frontendmentor.io/profile/ifaronti)
-
-
-## Acknowledgments
-Thanks to frontendmentor.io for this design.!
